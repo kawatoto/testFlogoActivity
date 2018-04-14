@@ -1,18 +1,22 @@
 {
-  "name": "testFlogoActivity",
+  "name": "HelloWorld",
   "version": "0.0.1",
   "type": "flogo:activity",
   "description": "activity description",
   "author": "Your Name <you.name@example.org>",
   "inputs":[
     {
-      "name": "input",
+      "name": "salutation",
+      "type": "string"
+    },
+    {
+      "name": "name",
       "type": "string"
     }
   ],
   "outputs": [
     {
-      "name": "output",
+      "name": "result",
       "type": "string"
     }
   ]
